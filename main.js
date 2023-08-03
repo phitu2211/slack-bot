@@ -69,13 +69,13 @@ async function checkPlanDay() {
 }
 
 async function sendReportWeek() {
-	const text = `<!channel> Các bạn làm báo cáo tuần này trong sáng nay và báo lại thầy qua luồng này nhé!
-Bước 1: Các bạn truy cập vào thư mục này https://drive.google.com/drive/folders/1jXDDMcusigpPBycW6FjJbhOuVbjsq2Sh?usp=sharing.
-Bước 2: Tìm thư mục trùng với tên của mình và truy cập vào nó.
-Bước 3: Truy cập vào file excel học kì 3 có tên của mình. VD: "IBSK1D1_Võ Cát Hải_Báo cáo tuần_HọcKyII"
-Bước 4: Click chuột phải vào sheet đầu tiên -> chọn Duplicate (Nhân bản)
+	const text = `<!channel> Các bạn làm báo cáo tuần này *trong sáng nay* và *báo lại thầy qua luồng này* nhé!
+*Bước 1*: Các bạn truy cập vào thư mục này https://drive.google.com/drive/folders/1jXDDMcusigpPBycW6FjJbhOuVbjsq2Sh?usp=sharing.
+*Bước 2*: Tìm thư mục trùng với tên của mình và truy cập vào nó.
+*Bước 3*: Truy cập vào file excel *học kì 3* có tên của mình. VD: "IBSK1D1_Võ Cát Hải_Báo cáo tuần_HọcKyII"
+*Bước 4*: Click chuột phải vào sheet đầu tiên -> chọn Duplicate (Nhân bản)
 -> Đổi tên sheet thành ngày viết báo cáo (Ví dụ: 05/10/2022).
-Bước 5: Tiến hành làm báo cáo
+*Bước 5*: Tiến hành làm báo cáo
 Cảm ơn tất cả mọi người :heart:`;
 
 	await client.chat.postMessage({
