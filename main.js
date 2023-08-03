@@ -87,13 +87,3 @@ Cảm ơn tất cả mọi người :heart:`;
 schedule.scheduleJob('0 8 * * 1-5', sendPlanDay);
 schedule.scheduleJob('0 8 * * 3', sendReportWeek);
 schedule.scheduleJob('15 8 * * 1-5', checkPlanDay);
-
-// (async () => {
-// 	const result = await client.conversations.replies({
-// 		channel: CHANNEL_ID,
-// 		ts: '1691025840.755759',
-// 	});
-
-// 	const listUser = result.messages;
-// 	console.log(listUser);
-// })();
